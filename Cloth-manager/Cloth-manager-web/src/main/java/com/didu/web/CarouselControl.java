@@ -66,7 +66,18 @@ public class CarouselControl {
     public List<Carousel> queryCarousel(Carousel carousel){
        return carouselService.queryCarousel(carousel);
     }
-    @RequestMapping("updateCarousel")
+    @RequestMapping("/deCarousel")
+    @ResponseBody
+    public boolean deCarousel(Carousel carousel,HttpServletRequest request){
+       List<Carousel> carousels = carouselService.queryCarousel(carousel);
+        String url = carousels.get(0).getUrl();
+        String s = request.getServletContext().getRealPath("/") + url;
+        File file=new File(s);
+        file.delete();
+        boolean b=carouselService.deCarousel(carousel);
+        return b;
+    }
+  /*  @RequestMapping("updateCarousel")
     @ResponseBody
     public boolean updateCarousel(Carousel carousel,@RequestParam(name = "files", required = false) CommonsMultipartFile[] files,@ModelAttribute(value = "dir") File dir) throws IOException {
         List<Carousel> carousels = carouselService.queryCarousel(carousel);
@@ -97,5 +108,5 @@ public class CarouselControl {
             }
         }
         return false;
-    }
+    }*/
 }

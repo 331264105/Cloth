@@ -28,6 +28,11 @@ public class CarouselServiceImpl implements CarouselService {
     }
 
     @Override
+    public boolean deCarousel(Carousel carousel) {
+        return carouselDao.deCarousel(carousel)>0?true:false;
+    }
+
+    @Override
     public boolean updateCarousel(Carousel carousel) {
         return carouselDao.updateCarousel(carousel)>0?true:false;
     }

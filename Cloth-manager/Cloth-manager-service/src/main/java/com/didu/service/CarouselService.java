@@ -10,5 +10,6 @@ import java.util.List;
 public interface CarouselService {
     boolean addImage(Carousel carousel);
     List<Carousel> queryCarousel(Carousel carousel);
+    boolean deCarousel(Carousel carousel);
     boolean updateCarousel(Carousel carousel);
 }

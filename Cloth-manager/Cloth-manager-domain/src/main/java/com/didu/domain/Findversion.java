@@ -18,10 +18,10 @@ public class Findversion {
     private String serial;
     private int uid;
     private String  price;
-    private int num;
+    private String  num;
     private List<Findversionpic> findversionpics;
 
-    public Findversion(int id, String leave, String username, String typ, String element, String address, String phone, String status, String datetime, String serial, int uid, String price, int num, List<Findversionpic> findversionpics) {
+    public Findversion(int id, String leave, String username, String typ, String element, String address, String phone, String status, String datetime, String serial, int uid, String price, String num, List<Findversionpic> findversionpics) {
         this.id = id;
         this.leave = leave;
         this.username = username;
@@ -38,7 +38,7 @@ public class Findversion {
         this.findversionpics = findversionpics;
     }
 
-    public Findversion(String leave, String username, String typ, String element, String address, String phone, String status, String datetime, String serial, int uid, String price, int num, List<Findversionpic> findversionpics) {
+    public Findversion(String leave, String username, String typ, String element, String address, String phone, String status, String datetime, String serial, int uid, String price, String num, List<Findversionpic> findversionpics) {
         this.leave = leave;
         this.username = username;
         this.typ = typ;
@@ -145,11 +145,11 @@ public class Findversion {
         this.price = price;
     }
 
-    public int getNum() {
+    public String getNum() {
         return num;
     }
 
-    public void setNum(int num) {
+    public void setNum(String num) {
         this.num = num;
     }
 
@@ -184,7 +184,7 @@ public class Findversion {
                 ", serial='" + serial + '\'' +
                 ", uid=" + uid +
                 ", price='" + price + '\'' +
-                ", num=" + num +
+                ", num='" + num + '\'' +
                 ", findversionpics=" + findversionpics +
                 '}';
     }
