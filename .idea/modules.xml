@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cloth-common/Cloth-common.iml" filepath="$PROJECT_DIR$/Cloth-common/Cloth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloth-manager/Cloth-manager.iml" filepath="$PROJECT_DIR$/Cloth-manager/Cloth-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloth-manager/Cloth-manager-dao/Cloth-manager-dao.iml" filepath="$PROJECT_DIR$/Cloth-manager/Cloth-manager-dao/Cloth-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloth-manager/Cloth-manager-domain/Cloth-manager-domain.iml" filepath="$PROJECT_DIR$/Cloth-manager/Cloth-manager-domain/Cloth-manager-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloth-manager/Cloth-manager-service/Cloth-manager-service.iml" filepath="$PROJECT_DIR$/Cloth-manager/Cloth-manager-service/Cloth-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloth-manager/Cloth-manager-serviceImpl/Cloth-manager-serviceImpl.iml" filepath="$PROJECT_DIR$/Cloth-manager/Cloth-manager-serviceImpl/Cloth-manager-serviceImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloth-manager/Cloth-manager-web/Cloth-manager-web.iml" filepath="$PROJECT_DIR$/Cloth-manager/Cloth-manager-web/Cloth-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloth-parent/Cloth-parent.iml" filepath="$PROJECT_DIR$/Cloth-parent/Cloth-parent.iml" />
+    </modules>
+  </component>
+</project>
